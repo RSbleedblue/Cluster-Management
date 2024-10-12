@@ -101,8 +101,8 @@ The backend server should now be running on `http://localhost:3333`.
 Now, clone the frontend repository:
 
 ```bash
-git clone https://github.com/yourusername/cluster-management-frontend.git
-cd cluster-management-frontend
+git clone https://github.com/RSBleedBlue/cluster-management.git
+cd frontend
 ```
 
 ### 2. Installing Dependencies
@@ -112,6 +112,7 @@ To install the necessary dependencies, run:
 ```bash
 npm install
 ```
+Make sure you are running Node 18.0.0 +
 
 ### 3. Running the Frontend
 
@@ -130,7 +131,7 @@ The frontend will be available at `http://localhost:3000` by default.
 1. **Frontend (React)**:
     - Displays performance metrics (IOPS) in a chart.
     - Fetches data from the backend using REST API calls.
-    - Allows users to select time ranges (last 7 days, last 30 days, etc.) to view metrics.
+    - Allows users to select time ranges (last 7 days ) to view metrics.
 
 2. **Backend (Node.js/Express)**:
     - Provides APIs to retrieve cluster performance metrics from a MySQL database.
